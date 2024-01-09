@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-gap: 5px;
+}
+#text{
+    width: 244px;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+.btn{
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    transition: box-shadow 1s;
+}
+.text-color{
+    color: orangered;
+}
+.btn:hover{
+    box-shadow:10px 5px 20px white;
+}
