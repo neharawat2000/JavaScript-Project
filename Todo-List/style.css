@@ -1,6 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 input{
     font-size: 15px;
